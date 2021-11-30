@@ -13,3 +13,10 @@ data class Item (
     @SerializedName("image")
     var image: String
     )
+ class CompleteItem (
+    var id : Int,
+    var animalName: String,
+    var animalImage: String,
+    var flowerName: String,
+    var flowerImage: String
+)
